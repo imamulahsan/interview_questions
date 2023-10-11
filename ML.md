@@ -8,8 +8,11 @@ Answer: Omission(Remove rows and columns) and Imputation (Fill with zero, mean, 
 
 3. Python functions for handling missing values\
 Answer:
-| Function    | Descriptiopn |
-| -------- | ------- |
-| df.isna.sum()  | Find no. of missing values    |
-| February | $80     |
-| March    | $420    |
+
+|  Function  | Description |
+| --------  | -------- |
+| df.isna().sum()      | No. of zeroes in the dataframe |
+| df['feature'].mean()  | Find mean |
+| .shape      | Dimension |
+| df.columns     | See the name of the columns |
+| .fillna(0)      | Fill missing values with zereos |
