@@ -34,4 +34,21 @@ Answer: Supervised learning is a type of machine learning where an algorithm lea
 8. What is overfitting?\
 Answer: Overfitting is a common problem in machine learning, especially in supervised learning, where a model learns the training data too well, to the point that it starts capturing noise or random fluctuations in the data rather than the underlying patterns. When a model overfits, it performs exceptionally well on the training data but poorly on unseen or test data.
 
-9. 
+9. What is feature selection?\
+Answer: Feature selection in machine learning is the process of selecting a subset of the most relevant features (variables or attributes) from a larger set of features. The objective is to improve the model's performance by focusing on the most informative and important features while reducing dimensionality, increasing model interpretability, and potentially speeding up training and inference.
+
+10. Give some common methods for feature selection.
+Answer: Filter Methods, Wrapper Methods, Embedded Methods, Principal Component Analysis (PCA).
+
+11. What is Regression?\
+Answer: Regression in machine learning is a supervised learning technique used for predicting a continuous numeric value or a real number based on one or more input features.
+
+12. Types of Regression.\
+Answer:\
+--Linear Regression: This is one of the simplest regression models. It fits a linear relationship between the input features and the target variable, aiming to find the best-fitting straight line through the data.\
+--Polynomial Regression: In cases where a linear relationship doesn't adequately capture the data, polynomial regression fits a polynomial function to the data, allowing for more complex relationships.\
+--Ridge and Lasso Regression: These are variants of linear regression that introduce regularization terms to prevent overfitting and improve model generalization.\
+--Support Vector Regression (SVR): SVR extends the concept of support vector machines to regression tasks and aims to find a hyperplane that best fits the data within a specified margin.\
+--Decision Tree Regression: Decision trees can be used for regression by recursively splitting the data into subsets based on the input features and assigning an output value to each leaf node.\
+--Random Forest Regression: Random Forest is an ensemble learning technique that combines multiple decision trees to improve prediction accuracy and reduce overfitting in regression tasks.\
+--Gradient Boosting Regression: Gradient boosting algorithms, such as Gradient Boosting Trees and XGBoost, build an ensemble of decision trees to make accurate predictions for regression tasks.\
